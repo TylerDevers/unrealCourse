@@ -16,9 +16,11 @@ int main()
 
     // Get a guess from player
     string Guess = "";
-    cin >> Guess;
+    cin >> Guess; // must use namespace string to get access to >>
 
     // repeat the guess back to them
+    cout << "your guess was " << Guess << endl;
+    
     /* code */
     return 0;
 }
