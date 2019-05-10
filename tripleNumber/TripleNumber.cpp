@@ -1,23 +1,24 @@
 
 #include <iostream> 
+#include <ctime>
 // # = preprocessor directive - simply gives instructions to the compiler
 // iostream = header file
 
-void PrintIntroduction()
+void PrintIntroduction(int Difficulty)
 {
-    std::cout << "You are a secret agent breaking into a secure server room"; // :: is the 'scope operator', std is our 'namespace'
-    std::cout << std::endl;
-    std::cout << "Enter the correct code to continue...";
+    std::cout << "\n\nYou are a secret agent breaking into a level " << Difficulty; 
+    // :: is the 'scope operator', std is our 'namespace'
+    std::cout << " secure server room...  \nEnter the correct code to continue...\n\n";
 }
 
-void PlayGame()
+bool PlayGame(int Difficulty)
 {
-    PrintIntroduction();
+    PrintIntroduction(Difficulty);
 
     // Declare three number code
-    int CodeA = 4;
-    int CodeB = 3;
-    int CodeC = 2;
+    int CodeA = rand() % Difficulty + Difficulty;
+    int CodeB = rand() % Difficulty + Difficulty;
+    int CodeC = rand() % Difficulty + Difficulty;
 
     const int CodeSum  = CodeA + CodeB + CodeC;
     const int CodeProduct = CodeA * CodeB * CodeC;
@@ -36,20 +37,36 @@ void PlayGame()
 
     if (GuessSum == CodeSum && GuessProduct == CodeProduct)
     {
-        std::cout << "you WIN\n";
+        std::cout << "you've extraced a file!!\n\n\n\n";
+        return true;
     }
     else
     {
-        std::cout << "you Lose\n";
+        std::cout << "you've Failed to get the file!\n";
+        return false;
     }
 }
 
 int main()
 {
-    while (true)
+    srand(time(NULL)); //uses ctime preprocessor modefier to seed rand with a new number each iteration
+
+    int LevelDifficulty = 1;
+    const int MaxDifficulty = 5;
+
+    while (LevelDifficulty <= MaxDifficulty) // Loop game until all levels are finished
     {
-        PlayGame();
+        bool bLevelComplete = PlayGame(LevelDifficulty);
+        std::cin.clear(); //Clears any errors to keep input working
+        std::cin.ignore(); // Clears the buffer of whatever statement caused the intial error
+
+        if (bLevelComplete)
+        {
+            // increase level difficulty
+            ++ LevelDifficulty;
+        }
+        
     }
-    
+    std::cout << "Good work agent, you've cracked the system! \n";
     return 0;
 }
