@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="EscapeEditor">
+  <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" />
+  <VirtualDirectory Name="Source">
+    <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Source/Escape.Target.cs" />
+    <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Source/EscapeEditor.Target.cs" />
+    <VirtualDirectory Name="Escape">
+      <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Source/Escape/Escape.Build.cs" />
+      <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Source/Escape/Escape.cpp" />
+      <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Source/Escape/Escape.h" />
+      <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Source/Escape/EscapeGameModeBase.cpp" />
+      <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Source/Escape/EscapeGameModeBase.h" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Config">
+    <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Config/DefaultEditor.ini" />
+    <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Config/DefaultEngine.ini" />
+    <File Name="/home/tyler/ReposLink/unrealCourse/Escape/Config/DefaultGame.ini" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeEditor Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe EscapeEditor Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeEditor Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe EscapeEditor Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeEditor Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe EscapeEditor Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeEditor Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe EscapeEditor Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <General CommandArguments="&quot;/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject&quot; -game" WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UE4Editor-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe EscapeEditor Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe EscapeEditor Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe EscapeEditor Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

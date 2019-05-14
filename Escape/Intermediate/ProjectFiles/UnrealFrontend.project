@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="UnrealFrontend">
+  <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/UnrealFrontend.Target.cs" />
+  <VirtualDirectory Name="Config">
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Programs/UnrealFrontend/Config/DefaultEngine.ini" />
+  </VirtualDirectory>
+  <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/UnrealFrontend.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/UnrealFrontendMain.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/UnrealFrontendMain.h" />
+    <VirtualDirectory Name="Commands">
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/DeployCommand.cpp" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/DeployCommand.h" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/LaunchCommand.cpp" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/LaunchCommand.h" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/LaunchFromProfileCommand.cpp" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/LaunchFromProfileCommand.h" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/PackageCommand.cpp" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/PackageCommand.h" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/StatsConvertCommand.cpp" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/StatsConvertCommand.h" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/StatsDumpMemoryCommand.cpp" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/StatsDumpMemoryCommand.h" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/UserInterfaceCommand.cpp" />
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Commands/UserInterfaceCommand.h" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Linux">
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Linux/LinuxUnrealFrontendMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Mac">
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Mac/MacUnrealFrontendMain.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Windows">
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/UnrealFrontend/Private/Windows/WindowsUnrealFrontendMain.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend-Linux-Debug" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe UnrealFrontend Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend-Linux-DebugGame" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealFrontend Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe UnrealFrontend Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe UnrealFrontend Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend-Linux-Shipping" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe UnrealFrontend Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend-Linux-Test" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./UnrealFrontend-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe UnrealFrontend Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe UnrealFrontend Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

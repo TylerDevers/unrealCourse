@@ -1,0 +1,104 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Escape (Debug)",
+			"request": "launch",
+			"preLaunchTask": "Escape Linux Debug Build",
+			"program": "/home/tyler/ReposLink/unrealCourse/Escape/Binaries/Linux/Escape-Linux-Debug",
+			"args": [
+			],
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Escape (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "Escape Linux DebugGame Build",
+			"program": "/home/tyler/ReposLink/unrealCourse/Escape/Binaries/Linux/Escape-Linux-DebugGame",
+			"args": [
+			],
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Escape (Development)",
+			"request": "launch",
+			"preLaunchTask": "Escape Linux Development Build",
+			"program": "/home/tyler/ReposLink/unrealCourse/Escape/Binaries/Linux/Escape",
+			"args": [
+			],
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Escape (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "Escape Linux Shipping Build",
+			"program": "/home/tyler/ReposLink/unrealCourse/Escape/Binaries/Linux/Escape-Linux-Shipping",
+			"args": [
+			],
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Escape (Test)",
+			"request": "launch",
+			"preLaunchTask": "Escape Linux Test Build",
+			"program": "/home/tyler/ReposLink/unrealCourse/Escape/Binaries/Linux/Escape-Linux-Test",
+			"args": [
+			],
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "EscapeEditor Linux Debug Build",
+			"program": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux/UE4Editor-Linux-Debug",
+			"args": [
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"
+			],
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "EscapeEditor Linux DebugGame Build",
+			"program": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"
+			],
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "EscapeEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "EscapeEditor Linux Development Build",
+			"program": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux/UE4Editor",
+			"args": [
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"
+			],
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "mono",
+			"request": "launch",
+			"program": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe",
+			"console": "internalConsole",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+		}
+	]
+}

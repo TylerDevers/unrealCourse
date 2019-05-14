@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="WebRTCProxy">
+  <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/WebRTCProxy.Target.cs" />
+  <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/WebRTCProxy.Build.cs" />
+  <VirtualDirectory Name="src">
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/AsyncConnection.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/AsyncConnection.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/CirrusConnection.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/CirrusConnection.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/ClientSession.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/ClientSession.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/CmdLine.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/CmdLine.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/Conductor.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/Conductor.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/Console.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/Console.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/CrashDetection.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/CrashDetection.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/FileLogOutput.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/FileLogOutput.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/H264FrameBuffer.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/Logging.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/Logging.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/NetworkAudioCapturer.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/NetworkAudioCapturer.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/NetworkVideoCapturer.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/NetworkVideoCapturer.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/ScopeGuard.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/Semaphore.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/SetSessionDescriptionObserver.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/SharedQueue.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/StringUtils.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/StringUtils.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/TimeUtils.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/TimeUtils.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/UE4Connection.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/UE4Connection.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/VideoEncoder.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/VideoEncoder.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/WebRTCLogging.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/WebRTCLogging.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/WebRTCProxy.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/WebRTCProxyCommon.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/WebRTCProxyCommon.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/WebRTCProxyPCH.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/WebRTCProxyPCH.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/PixelStreaming/WebRTCProxy/src/targetver.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy-Linux-Debug" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe WebRTCProxy Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy-Linux-DebugGame" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe WebRTCProxy Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe WebRTCProxy Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe WebRTCProxy Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy-Linux-Shipping" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe WebRTCProxy Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy-Linux-Test" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./WebRTCProxy-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe WebRTCProxy Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe WebRTCProxy Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

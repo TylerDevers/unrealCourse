@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="LiveCodingConsole">
+  <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Target.cs" />
+  <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/LiveCodingConsole.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsole.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingConsoleStyle.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/LiveCodingManifest.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/LiveCodingConsole/Private/SLogWidget.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Debug" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe LiveCodingConsole Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-DebugGame" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe LiveCodingConsole Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe LiveCodingConsole Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Shipping" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe LiveCodingConsole Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Test" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./LiveCodingConsole-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe LiveCodingConsole Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe LiveCodingConsole Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

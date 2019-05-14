@@ -1,0 +1,1710 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Escape Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Mac",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"IOS",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"HTML5",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"Linux",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape TVOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape TVOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape TVOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape TVOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Shipping",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Escape TVOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "Escape TVOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"Escape",
+				"TVOS",
+				"Test",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Linux",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"Debug",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"DebugGame",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"EscapeEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		},
+		{
+			"label": "EscapeEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"EscapeEditor",
+				"Mac",
+				"Development",
+				"/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine"
+			}
+		}
+	]
+}

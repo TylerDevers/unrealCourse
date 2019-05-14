@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="SymbolDebugger">
+  <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/SymbolDebugger.Target.cs" />
+  <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/SymbolDebugger.Build.cs" />
+  <VirtualDirectory Name="Private">
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/Private/SSymbolDebugger.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/Private/SSymbolDebugger.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebugger.cpp" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebugger.h" />
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/Private/SymbolDebuggerApp.cpp" />
+    <VirtualDirectory Name="Mac">
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/Private/Mac/SymbolDebuggerMainMac.cpp" />
+    </VirtualDirectory>
+    <VirtualDirectory Name="Windows">
+      <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/Private/Windows/SymbolDebuggerMainWindows.cpp" />
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Public">
+    <File Name="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Source/Programs/SymbolDebugger/Public/SymbolDebuggerApp.h" />
+  </VirtualDirectory>
+  <Settings>
+    <Configuration Name="Debug">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger-Linux-Debug" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger-Linux-Debug" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe SymbolDebugger Linux Debug -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="DebugGame">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger-Linux-DebugGame" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger-Linux-DebugGame" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SymbolDebugger Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe SymbolDebugger Linux DebugGame -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Development">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe SymbolDebugger Linux Development -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Shipping">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger-Linux-Shipping" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger-Linux-Shipping" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe SymbolDebugger Linux Shipping -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <Configuration Name="Test">
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger-Linux-Test" />
+      <General WorkingDirectory="/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux" Command="./SymbolDebugger-Linux-Test" />
+      <CustomBuild Enabled="yes">
+        <WorkingDirectory>/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET</WorkingDirectory>
+        <BuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</BuildCommand>
+        <CleanCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean</CleanCommand>
+        <RebuildCommand>mono UnrealBuildTool.exe SymbolDebugger Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -clean
+mono UnrealBuildTool.exe SymbolDebugger Linux Test -project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject"</RebuildCommand>
+      </CustomBuild>
+    </Configuration>
+    <GlobalSettings />
+  </Settings>
+  <GlobalSettings />
+</CodeLite_Project>

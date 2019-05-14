@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{0004E8BB-08D6-C1B2-8EF6-E9388E36B73C}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Escape",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
