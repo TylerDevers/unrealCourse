@@ -1,0 +1,292 @@
+﻿Log file open, 05/15/19 12:46:48
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Escape
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.118500
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogInit: Warning: Incompatible or missing module: Escape
+LogInit: Initializing SDL.
+LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+LogInit: Using SDL video driver 'x11'
+LogInit: Display metrics:
+LogInit:   PrimaryDisplayWidth: 1680
+LogInit:   PrimaryDisplayHeight: 1050
+LogInit:   PrimaryDisplayWorkAreaRect:
+LogInit:     Left=0, Top=0, Right=1680, Bottom=1010
+LogInit:   VirtualDisplayRect:
+LogInit:     Left=0, Top=0, Right=3280, Bottom=1010
+LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+LogInit:   Number of monitors: 2
+LogInit:     Monitor 0
+LogInit:       Name: HP w2207 22"
+LogInit:       ID: display0
+LogInit:       NativeWidth: 1680
+LogInit:       NativeHeight: 1050
+LogInit:       bIsPrimary: true
+LogInit:     Monitor 1
+LogInit:       Name: Acer G205HV 20"
+LogInit:       ID: display1
+LogInit:       NativeWidth: 1600
+LogInit:       NativeHeight: 900
+LogInit:       bIsPrimary: false
+Running /mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Linux -Project="/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+
+Running Mono...
+
+Fixing inconsistent case in filenames.
+Setting up Mono
+/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine /mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux
+Using 'git status' to determine working set for adaptive non-unity build (/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine).
+Using 'git status' to determine working set for adaptive non-unity build (/home/tyler/ReposLink/unrealCourse).
+Creating makefile for EscapeEditor (no existing makefile)
+@progress push 5%
+Creating makefile for UnrealHeaderTool (no existing makefile)
+@progress push 5%
+@progress pop
+Waiting for 'git status' command to complete
+------- Build details --------
+Using toolchain located at '/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+Using clang (/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+Using bundled libc++ standard C++ library.
+Using lld linker
+Using llvm-ar : /mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+Using fast way to relink  circularly dependent libraries (no FixDeps).
+------------------------------
+Parsing headers for EscapeEditor
+  Running UnrealHeaderTool "/home/tyler/ReposLink/unrealCourse/Escape/Escape.uproject" "/home/tyler/ReposLink/unrealCourse/Escape/Intermediate/Build/Linux/B4D820EA/EscapeEditor/Development/EscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+Reflection code generated for EscapeEditor in 19.5252421 seconds
+@progress pop
+------- Build details --------
+Using toolchain located at '/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu'.
+Using clang (/mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++) version '7.0.1' (string), 7 (major), 0 (minor), 1 (patch)
+Using bundled libc++ standard C++ library.
+Using lld linker
+Using llvm-ar : /mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v13_clang-7.0.1-centos7/x86_64-unknown-linux-gnu/bin/llvm-ar
+Using fast way to relink  circularly dependent libraries (no FixDeps).
+------------------------------
+Performing 12 actions (4 in parallel)
+[1/12] Compile Module.VulkanRHI.2_of_3.cpp
+[2/12] Compile Module.VulkanRHI.3_of_3.cpp
+[3/12] Compile Module.VulkanRHI.1_of_3.cpp
+[4/12] Compile EscapeGameModeBase.gen.cpp
+[5/12] Compile Escape.init.gen.cpp
+[6/12] Compile Escape.cpp
+[7/12] Compile EscapeGameModeBase.cpp
+[8/12] Link (ld) libUE4Editor-Escape.so
+[9/12] Link (ld) libUE4Editor-VulkanRHI.so
+[10/12] Link (ld) libUE4Editor-SteamVR.so
+[11/12] Link (ld) libUE4Editor-SteamVRController.so
+[12/12] UnrealBuildTool.exe EscapeEditor.target
+Total time in Local executor: 55.99 seconds
+Total execution time: 98.39 seconds
+LogInit: Warning: Still incompatible or missing module: Escape
+LogInit: Warning: Still incompatible or missing module: AnimationSharing
+LogInit: Warning: Still incompatible or missing module: AnimationSharingEd
+LogInit: Warning: Still incompatible or missing module: SubversionSourceControl
+LogInit: Warning: Still incompatible or missing module: NullSourceCodeAccess
+LogInit: Warning: Still incompatible or missing module: CLionSourceCodeAccess
+LogInit: Warning: Still incompatible or missing module: PerforceSourceControl
+LogInit: Warning: Still incompatible or missing module: KDevelopSourceCodeAccess
+LogInit: Warning: Still incompatible or missing module: CodeLiteSourceCodeAccess
+LogInit: Warning: Still incompatible or missing module: GitSourceControl
+LogInit: Warning: Still incompatible or missing module: VisualStudioCodeSourceCodeAccess
+LogInit: Warning: Still incompatible or missing module: ActorLayerUtilities
+LogInit: Warning: Still incompatible or missing module: ActorLayerUtilitiesEditor
+LogInit: Warning: Still incompatible or missing module: UObjectPlugin
+LogInit: Warning: Still incompatible or missing module: PhysXVehicles
+LogInit: Warning: Still incompatible or missing module: PhysXVehiclesEditor
+LogInit: Warning: Still incompatible or missing module: AndroidPermission
+LogInit: Warning: Still incompatible or missing module: SteamVR
+LogInit: Warning: Still incompatible or missing module: SteamVRController
+LogInit: Warning: Still incompatible or missing module: MobilePatchingUtils
+LogInit: Warning: Still incompatible or missing module: SignificanceManager
+LogInit: Warning: Still incompatible or missing module: RuntimePhysXCooking
+LogInit: Warning: Still incompatible or missing module: AndroidDeviceProfileSelector
+LogInit: Warning: Still incompatible or missing module: EditableMesh
+LogInit: Warning: Still incompatible or missing module: WebMMoviePlayer
+LogInit: Warning: Still incompatible or missing module: CustomMeshComponent
+LogInit: Warning: Still incompatible or missing module: ExampleDeviceProfileSelector
+LogInit: Warning: Still incompatible or missing module: ProceduralMeshComponent
+LogInit: Warning: Still incompatible or missing module: ProceduralMeshComponentEditor
+LogInit: Warning: Still incompatible or missing module: LinuxDeviceProfileSelector
+LogInit: Warning: Still incompatible or missing module: ArchVisCharacter
+LogInit: Warning: Still incompatible or missing module: LocationServicesBPLibrary
+LogInit: Warning: Still incompatible or missing module: CableComponent
+LogInit: Warning: Still incompatible or missing module: AudioCapture
+LogInit: Warning: Still incompatible or missing module: LightPropagationVolumeRuntime
+LogInit: Warning: Still incompatible or missing module: LightPropagationVolumeEditor
+LogInit: Warning: Still incompatible or missing module: UdpMessaging
+LogInit: Warning: Still incompatible or missing module: TcpMessaging
+LogInit: Warning: Still incompatible or missing module: DatasmithContent
+LogInit: Warning: Still incompatible or missing module: DatasmithContentEditor
+LogInit: Warning: Still incompatible or missing module: VariantManagerContent
+LogInit: Warning: Still incompatible or missing module: NetcodeUnitTest
+LogInit: Warning: Still incompatible or missing module: NUTUnrealEngine4
+LogInit: Warning: Still incompatible or missing module: MagicLeapMediaEditor
+LogInit: Warning: Still incompatible or missing module: ActorSequence
+LogInit: Warning: Still incompatible or missing module: ActorSequenceEditor
+LogInit: Warning: Still incompatible or missing module: LevelSequenceEditor
+LogInit: Warning: Still incompatible or missing module: MatineeToLevelSequence
+LogInit: Warning: Still incompatible or missing module: PluginBrowser
+LogInit: Warning: Still incompatible or missing module: AssetManagerEditor
+LogInit: Warning: Still incompatible or missing module: GameplayTagsEditor
+LogInit: Warning: Still incompatible or missing module: DataValidation
+LogInit: Warning: Still incompatible or missing module: CryptoKeys
+LogInit: Warning: Still incompatible or missing module: CryptoKeysOpenSSL
+LogInit: Warning: Still incompatible or missing module: SpeedTreeImporter
+LogInit: Warning: Still incompatible or missing module: FacialAnimation
+LogInit: Warning: Still incompatible or missing module: FacialAnimationEditor
+LogInit: Warning: Still incompatible or missing module: MaterialAnalyzer
+LogInit: Warning: Still incompatible or missing module: MobileLauncherProfileWizard
+LogInit: Warning: Still incompatible or missing module: Paper2D
+LogInit: Warning: Still incompatible or missing module: Paper2DEditor
+LogInit: Warning: Still incompatible or missing module: PaperSpriteSheetImporter
+LogInit: Warning: Still incompatible or missing module: PaperTiledImporter
+LogInit: Warning: Still incompatible or missing module: SmartSnapping
+LogInit: Warning: Still incompatible or missing module: MediaCompositing
+LogInit: Warning: Still incompatible or missing module: MediaCompositingEditor
+LogInit: Warning: Still incompatible or missing module: AvfMediaEditor
+LogInit: Warning: Still incompatible or missing module: AvfMediaFactory
+LogInit: Warning: Still incompatible or missing module: AvfMediaFactory
+LogInit: Warning: Still incompatible or missing module: WmfMediaEditor
+LogInit: Warning: Still incompatible or missing module: WmfMediaFactory
+LogInit: Warning: Still incompatible or missing module: WmfMediaFactory
+LogInit: Warning: Still incompatible or missing module: MediaPlayerEditor
+LogInit: Warning: Still incompatible or missing module: LinearTimecode
+LogInit: Warning: Still incompatible or missing module: AndroidMediaEditor
+LogInit: Warning: Still incompatible or missing module: AndroidMediaFactory
+LogInit: Warning: Still incompatible or missing module: ImgMedia
+LogInit: Warning: Still incompatible or missing module: ImgMediaEditor
+LogInit: Warning: Still incompatible or missing module: ImgMediaFactory
+LogInit: Warning: Still incompatible or missing module: ImgMediaFactory
+LogInit: Warning: Still incompatible or missing module: WebMMedia
+LogInit: Warning: Still incompatible or missing module: WebMMediaEditor
+LogInit: Warning: Still incompatible or missing module: WebMMediaFactory
+LogInit: Warning: Still incompatible or missing module: WebMMediaFactory
+LogInit: Warning: Still incompatible or missing module: AISupportModule
+LogInit: Warning: Still incompatible or missing module: AlembicImporter
+LogInit: Warning: Still incompatible or missing module: AlembicLibrary
+LogInit: Warning: Still incompatible or missing module: BackChannel
+LogInit: Warning: Still incompatible or missing module: AppleVision
+LogInit: Warning: Still incompatible or missing module: AppleVisionBlueprintSupport
+LogInit: Warning: Still incompatible or missing module: CharacterAI
+LogInit: Warning: Still incompatible or missing module: AppleImageUtils
+LogInit: Warning: Still incompatible or missing module: AppleImageUtilsBlueprintSupport
+LogInit: Warning: Still incompatible or missing module: GeometryCache
+LogInit: Warning: Still incompatible or missing module: GeometryCacheTracks
+LogInit: Warning: Still incompatible or missing module: SkeletalMeshReduction
+LogInit: Warning: Still incompatible or missing module: LauncherChunkInstaller
+LogInit: Warning: Still incompatible or missing module: OnlineSubsystemNull
+LogInit: Warning: Still incompatible or missing module: OnlineSubsystemUtils
+LogInit: Warning: Still incompatible or missing module: OnlineBlueprintSupport
+LogInit: Warning: Still incompatible or missing module: OnlineSubsystem
+LogExit: Preparing to exit.
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+LogModuleManager: Shutting down and abandoning module RenderCore (28)
+LogModuleManager: Shutting down and abandoning module Landscape (26)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+LogModuleManager: Shutting down and abandoning module Renderer (18)
+LogModuleManager: Shutting down and abandoning module Engine (16)
+LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+LogModuleManager: Shutting down and abandoning module PakFile (4)
+LogModuleManager: Shutting down and abandoning module RSA (3)
+LogExit: Exiting.
+LogInit: Tearing down SDL.
+Log file closed, 05/15/19 12:49:17

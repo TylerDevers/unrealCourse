@@ -1,0 +1,1071 @@
+﻿Log file open, 05/15/19 12:52:38
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Escape
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.110601
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: Build: ++UE4+Release-4.22-CL-0
+LogInit: Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-0+++UE4+Release-4.22
+LogInit: Net CL: 0
+LogInit: OS: GenericOSVersionLabel (GenericOSSubVersionLabel), CPU: AMD Phenom(tm) II X4 B45 Processor, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Apr 15 2019 15:58:28
+LogInit: Compiled with Clang: 7.0.1 (tags/RELEASE_701/final)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: /mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[r.RHICmdBypass:1]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Engine.ini]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Engine.ini]
+[2019.05.15-19.52.41:100][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Engine.ini]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.15-19.52.41:100][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Engine.ini]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.15-19.52.41:101][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Engine.ini]
+[2019.05.15-19.52.41:101][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Engine.ini]
+[2019.05.15-19.52.41:101][  0]LogInit: Initializing SDL.
+[2019.05.15-19.52.41:280][  0]LogInit: Initialized SDL 2.0.8 revision: 11184 (hg-12121:4358e537000a with EpicExtensions) (compiled against 2.0.8)
+[2019.05.15-19.52.41:280][  0]LogInit: Using SDL video driver 'x11'
+[2019.05.15-19.52.41:293][  0]LogInit: Display metrics:
+[2019.05.15-19.52.41:293][  0]LogInit:   PrimaryDisplayWidth: 1680
+[2019.05.15-19.52.41:293][  0]LogInit:   PrimaryDisplayHeight: 1050
+[2019.05.15-19.52.41:293][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2019.05.15-19.52.41:293][  0]LogInit:     Left=0, Top=0, Right=1680, Bottom=1010
+[2019.05.15-19.52.41:293][  0]LogInit:   VirtualDisplayRect:
+[2019.05.15-19.52.41:293][  0]LogInit:     Left=0, Top=0, Right=3280, Bottom=1010
+[2019.05.15-19.52.41:293][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2019.05.15-19.52.41:294][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000 Z=0.000 W=0.000
+[2019.05.15-19.52.41:294][  0]LogInit:   Number of monitors: 2
+[2019.05.15-19.52.41:294][  0]LogInit:     Monitor 0
+[2019.05.15-19.52.41:294][  0]LogInit:       Name: HP w2207 22"
+[2019.05.15-19.52.41:294][  0]LogInit:       ID: display0
+[2019.05.15-19.52.41:294][  0]LogInit:       NativeWidth: 1680
+[2019.05.15-19.52.41:294][  0]LogInit:       NativeHeight: 1050
+[2019.05.15-19.52.41:294][  0]LogInit:       bIsPrimary: true
+[2019.05.15-19.52.41:294][  0]LogInit:     Monitor 1
+[2019.05.15-19.52.41:294][  0]LogInit:       Name: Acer G205HV 20"
+[2019.05.15-19.52.41:294][  0]LogInit:       ID: display1
+[2019.05.15-19.52.41:294][  0]LogInit:       NativeWidth: 1600
+[2019.05.15-19.52.41:294][  0]LogInit:       NativeHeight: 900
+[2019.05.15-19.52.41:294][  0]LogInit:       bIsPrimary: false
+[2019.05.15-19.52.41:295][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.15-19.52.41:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.15-19.52.41:296][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.15-19.52.41:297][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.05.15-19.52.41:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2019.05.15-19.52.41:314][  0]LogHAL: Display: Platform has ~ 4 GB [8363970560 / 4294967296 / 8], which maps to Smallest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.15-19.52.41:314][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.15-19.52.41:314][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.15-19.52.41:314][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Scalability.ini]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.05.15-19.52.41:315][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [/home/tyler/ReposLink/unrealCourse/Escape/Saved/Config/Linux/Engine.ini]
+[2019.05.15-19.52.41:315][  0]LogConfig: Setting CVar [[g.TimeoutForBlockOnRenderFence:60000]]
+[2019.05.15-19.52.41:315][  0]LogInit: Unix hardware info:
+[2019.05.15-19.52.41:315][  0]LogInit:  - we are the first instance of this executable
+[2019.05.15-19.52.41:315][  0]LogInit:  - this process' id (pid) is 5206, parent process' id (ppid) is 1
+[2019.05.15-19.52.41:315][  0]LogInit:  - we are not running under debugger
+[2019.05.15-19.52.41:315][  0]LogInit:  - machine network name is 'mintyHal'
+[2019.05.15-19.52.41:315][  0]LogInit:  - user name is 'tyler' (tyler)
+[2019.05.15-19.52.41:315][  0]LogInit:  - we're logged in locally
+[2019.05.15-19.52.41:315][  0]LogInit:  - we're running with rendering
+[2019.05.15-19.52.41:315][  0]LogInit:  - CPU: AuthenticAMD 'AMD Phenom(tm) II X4 B45 Processor' (signature: 0x100F53)
+[2019.05.15-19.52.41:315][  0]LogInit:  - Number of physical cores available for the process: 4
+[2019.05.15-19.52.41:315][  0]LogInit:  - Number of logical cores available for the process: 4
+[2019.05.15-19.52.41:315][  0]LogInit:  - Cache line size: 64
+[2019.05.15-19.52.41:315][  0]LogInit:  - Memory allocator used: binned2
+[2019.05.15-19.52.41:315][  0]LogInit:  - This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+[2019.05.15-19.52.41:316][  0]LogCore: Benchmarking clocks:
+[2019.05.15-19.52.41:316][  0]LogCore:  - CLOCK_MONOTONIC (id=1) can sustain 24523341 (24523K, 25M) calls per second without zero deltas.
+[2019.05.15-19.52.41:316][  0]LogCore:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 7676178 (7676K, 8M) calls per second without zero deltas.
+[2019.05.15-19.52.41:316][  0]LogCore:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 90746809 (90747K, 91M) calls per second with 99.999714% zero deltas.
+[2019.05.15-19.52.41:316][  0]LogCore: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2019.05.15-19.52.41:316][  0]LogInit: Unix-specific commandline switches:
+[2019.05.15-19.52.41:316][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2019.05.15-19.52.41:316][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2019.05.15-19.52.41:316][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2019.05.15-19.52.41:316][  0]LogInit:  -filemapcachesize=NUMBER - set the size for case-sensitive file mapping cache
+[2019.05.15-19.52.41:316][  0]LogInit:  -useksm - uses kernel same-page mapping (KSM) for mapped memory (OFF)
+[2019.05.15-19.52.41:316][  0]LogInit:  -ksmmergeall - marks all mmap'd memory pages suitable for KSM (OFF)
+[2019.05.15-19.52.41:316][  0]LogInit:  -preloadmodulesymbols - Loads the main module symbols file into memory (OFF)
+[2019.05.15-19.52.41:316][  0]LogInit:  -sigdfl=SIGNAL - Allows a specific signal to be set to its default handler rather then ignoring the signal
+[2019.05.15-19.52.41:316][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2019.05.15-19.52.41:316][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2019.05.15-19.52.41:316][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2019.05.15-19.52.41:316][  0]LogInit:  - Physical RAM available (not considering process quota): 8 GB (7976 MB, 8167940 KB, 8363970560 bytes)
+[2019.05.15-19.52.41:316][  0]LogInit:  - VirtualMemoryAllocator pools will grow at scale 1.4
+[2019.05.15-19.52.41:316][  0]LogInit:  - MemoryRangeDecommit() will be a no-op (re-run with -vmapoolevict to change)
+[2019.05.15-19.52.41:832][  0]LogInit: Using OS detected language (en-US).
+[2019.05.15-19.52.41:832][  0]LogInit: Using OS detected locale (en-US).
+[2019.05.15-19.52.41:833][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.05.15-19.52.42:228][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.15-19.52.42:228][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.15-19.52.43:393][  0]LogInit: Using SDL_WINDOW_VULKAN
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_acquire_xlib_display
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_debug_report
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_debug_utils
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_direct_mode_display
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_EXT_display_surface_counter
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_device_group_creation
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_display
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_fence_capabilities
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_memory_capabilities
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_external_semaphore_capabilities
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_display_properties2
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_physical_device_properties2
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_get_surface_capabilities2
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_surface
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_wayland_surface
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_xcb_surface
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: - Found instance extension VK_KHR_xlib_surface
+[2019.05.15-19.52.43:634][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: Not using instance layers
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: Using instance extensions
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: * VK_KHR_surface
+[2019.05.15-19.52.43:634][  0]LogVulkanRHI: Display: * VK_KHR_xlib_surface
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: Found 1 device(s)
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: Device 0: AMD RADV POLARIS10 (LLVM 8.0.0)
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - API 1.1.90(0x40105a) Driver 0x4c00063 VendorId 0x1002
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - DeviceID 0x67df Type Discrete GPU
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Max Descriptor Sets Bound 32 Timestamps 1
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: Using Device 0: Geometry 1 Tessellation 1
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_AMD_draw_indirect_count
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_AMD_gcn_shader
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_AMD_gpu_shader_half_float
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_AMD_gpu_shader_int16
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_AMD_rasterization_order
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_AMD_shader_info
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_AMD_shader_trinary_minmax
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_calibrated_timestamps
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_conditional_rendering
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_depth_clip_enable
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_depth_range_unrestricted
+[2019.05.15-19.52.43:702][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_global_priority
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_pipeline_creation_feedback
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_shader_stencil_export
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_EXT_shader_viewport_index_layer
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_GOOGLE_decorate_string
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_GOOGLE_hlsl_functionality1
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_bind_memory2
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_dedicated_allocation
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_descriptor_update_template
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_draw_indirect_count
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_get_memory_requirements2
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_image_format_list
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_incremental_present
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_maintenance1
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_maintenance2
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_relaxed_block_layout
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_sampler_mirror_clamp_to_edge
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_shader_draw_parameters
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_storage_buffer_storage_class
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: - Found device extension VK_KHR_swapchain
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: Using device extensions
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: * VK_KHR_swapchain
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: * VK_KHR_maintenance1
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: * VK_KHR_maintenance2
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: Found 2 Queue Families
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: Initializing Queue Family 0: 1 queues Gfx Compute Xfer Sparse
+[2019.05.15-19.52.43:703][  0]LogVulkanRHI: Display: Skipping unnecessary Queue Family 1: 4 queues Compute Xfer Sparse
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: EPixelFormat(20) (images) is not supported with Vk format 125, falling back to Vk format 128
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: EPixelFormat(20) (images) is not supported with Vk format 125, falling back to Vk format 126
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: EPixelFormat(20) (images) is not supported with Vk format 125, falling back to Vk format 130
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 3 Device Memory Heaps; Max memory allocations -1
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 0: Flags 0x1 Size 4026531840 (3840.00 MB) GPU
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 1: Flags 0x1 Size 268435456 (256.00 MB) GPU
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 2: Flags 0x0 Size 8363970560 (7976.50 MB) 
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 4 Device Memory Types (Not unified)
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 0: Flags 0x1 Heap 0  Local
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 1: Flags 0x6 Heap 2  HostVisible HostCoherent
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 2: Flags 0x7 Heap 1  Local HostVisible HostCoherent
+[2019.05.15-19.52.43:711][  0]LogVulkanRHI: Display: 3: Flags 0xe Heap 2  HostVisible HostCoherent HostCached
+[2019.05.15-19.52.43:723][  0]LogVulkanRHI: Display: FVulkanPipelineStateCacheManager: Binary pipeline cache '../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Saved/VulkanPSO.cache.1002.67df' not found.
+[2019.05.15-19.52.43:728][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.15-19.52.43:728][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.15-19.52.43:728][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.15-19.52.43:730][  0]LogRHI: Texture pool is 2723 MB (70% of 3891 MB)
+[2019.05.15-19.52.44:997][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.05.15-19.52.45:457][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.05.15-19.52.45:918][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.05.15-19.52.46:375][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.05.15-19.52.46:818][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.05.15-19.52.47:259][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.05.15-19.52.47:814][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.05.15-19.52.47:825][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2019.05.15-19.52.49:014][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Intermediate/Shaders/WorkingDirectory/5206/).
+[2019.05.15-19.52.49:014][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Intermediate/Shaders/tmp/000454FD08D6D9343C25C0BE277E3042/'.
+[2019.05.15-19.52.49:014][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.15-19.52.51:349][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.15-19.52.51:349][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2019.05.15-19.52.51:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.15-19.52.51:350][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.15-19.52.51:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.15-19.52.51:350][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.05.15-19.52.51:351][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.05.15-19.52.51:351][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.15-19.52.51:351][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.15-19.52.52:065][  0]LogMaterial: Verifying Global Shaders for SF_VULKAN_SM5_NOUB
+[2019.05.15-19.52.52:076][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.15-19.52.52:077][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2019.05.15-19.52.52:228][  0]LogAssetRegistry: FAssetRegistry took 0.0065 seconds to start up
+[2019.05.15-19.52.52:768][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.05.15-19.52.54:976][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.15-19.52.54:976][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.05.15-19.52.54:977][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.05.15-19.52.54:977][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.05.15-19.52.54:977][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.05.15-19.52.54:977][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.05.15-19.52.55:303][  0]LogNetVersion: Escape 1.0.0, NetCL: 0, EngineNetVer: 10, GameNetVer: 0 (Checksum: 518248402)
+[2019.05.15-19.52.58:241][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.046461 seconds
+[2019.05.15-19.52.58:265][  0]LogUObjectArray: 41527 objects as part of root set at end of initial load.
+[2019.05.15-19.52.58:265][  0]LogUObjectAllocator: 7196376 out of 0 bytes used by permanent object pool.
+[2019.05.15-19.52.58:265][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.15-19.52.58:901][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2019.05.15-19.53.10:795][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.15-19.53.10:803][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.15-19.53.18:163][  0]SourceControl: Source control is disabled
+[2019.05.15-19.53.18:163][  0]SourceControl: Source control is disabled
+[2019.05.15-19.53.18:596][  0]SourceControl: Source control is disabled
+[2019.05.15-19.53.19:007][  0]SourceControl: Source control is disabled
+[2019.05.15-19.53.20:668][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.15-19.53.36:856][  0]LogEngine: Initializing Engine...
+[2019.05.15-19.53.36:856][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.15-19.53.36:858][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.05.15-19.53.38:281][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.15-19.53.39:761][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.15-19.53.39:782][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.05.15-19.53.39:782][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.05.15-19.53.39:782][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.05.15-19.53.39:782][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.05.15-19.53.39:782][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.05.15-19.53.39:782][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.05.15-19.53.39:782][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.05.15-19.53.39:783][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2019.05.15-19.53.39:802][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.05.15-19.53.39:887][  0]LogInit: FAudioDevice initialized.
+[2019.05.15-19.53.39:888][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.15-19.53.39:992][  0]LogDerivedDataCache: Saved boot cache 0.10s 95MB ../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/DerivedDataCache/Boot.ddc.
+[2019.05.15-19.53.40:081][  0]LogInit: Texture streaming: Enabled
+[2019.05.15-19.53.40:126][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.15-19.53.41:847][  0]LogInit: Transaction tracking system initialized
+[2019.05.15-19.53.44:339][  0]BlueprintLog: New page: Editor Load
+[2019.05.15-19.53.52:192][  0]LocalizationService: Localization service is disabled
+[2019.05.15-19.53.57:603][  0]LogFileCache: Scanning file cache for directory '/home/tyler/ReposLink/unrealCourse/Escape/Content/' took 0.00s
+[2019.05.15-19.53.57:603][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.15-19.53.57:604][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.15-19.54.08:301][  0]SourceControl: Source control is disabled
+[2019.05.15-19.54.08:365][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 /mnt/8bfd2b1d-bf30-482b-ab7c-0967e1ed6a46/Apps/UnrealEngine/FeaturePacks/StarterContent.upack)
+[2019.05.15-19.54.08:515][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2019.05.15-19.54.08:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2019.05.15-19.54.08:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2019.05.15-19.54.08:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2019.05.15-19.54.08:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2019.05.15-19.54.08:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2019.05.15-19.54.08:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2019.05.15-19.54.08:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2019.05.15-19.54.08:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2019.05.15-19.54.08:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2019.05.15-19.54.08:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2019.05.15-19.54.08:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2019.05.15-19.54.08:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2019.05.15-19.54.08:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2019.05.15-19.54.08:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2019.05.15-19.54.08:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2019.05.15-19.54.08:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2019.05.15-19.54.08:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2019.05.15-19.54.08:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2019.05.15-19.54.08:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2019.05.15-19.54.08:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2019.05.15-19.54.08:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2019.05.15-19.54.08:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2019.05.15-19.54.08:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2019.05.15-19.54.08:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2019.05.15-19.54.08:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2019.05.15-19.54.08:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2019.05.15-19.54.08:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2019.05.15-19.54.08:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2019.05.15-19.54.08:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2019.05.15-19.54.08:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2019.05.15-19.54.08:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2019.05.15-19.54.09:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2019.05.15-19.54.09:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2019.05.15-19.54.09:197][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2019.05.15-19.54.09:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2019.05.15-19.54.09:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2019.05.15-19.54.09:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2019.05.15-19.54.09:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2019.05.15-19.54.09:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2019.05.15-19.54.09:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2019.05.15-19.54.09:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2019.05.15-19.54.09:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2019.05.15-19.54.09:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2019.05.15-19.54.09:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2019.05.15-19.54.10:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2019.05.15-19.54.10:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2019.05.15-19.54.10:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2019.05.15-19.54.10:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2019.05.15-19.54.10:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2019.05.15-19.54.10:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2019.05.15-19.54.10:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2019.05.15-19.54.10:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Water_N.uasset"
+[2019.05.15-19.54.10:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2019.05.15-19.54.10:483][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2019.05.15-19.54.10:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2019.05.15-19.54.10:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2019.05.15-19.54.10:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2019.05.15-19.54.10:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2019.05.15-19.54.10:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2019.05.15-19.54.10:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2019.05.15-19.54.11:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2019.05.15-19.54.11:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2019.05.15-19.54.11:279][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2019.05.15-19.54.11:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2019.05.15-19.54.11:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2019.05.15-19.54.11:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2019.05.15-19.54.11:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2019.05.15-19.54.12:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Door_N.uasset"
+[2019.05.15-19.54.12:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Door_M.uasset"
+[2019.05.15-19.54.12:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2019.05.15-19.54.12:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2019.05.15-19.54.12:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2019.05.15-19.54.12:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2019.05.15-19.54.12:676][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2019.05.15-19.54.12:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2019.05.15-19.54.12:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Water_M.uasset"
+[2019.05.15-19.54.13:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2019.05.15-19.54.13:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2019.05.15-19.54.13:258][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2019.05.15-19.54.13:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2019.05.15-19.54.13:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2019.05.15-19.54.13:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2019.05.15-19.54.13:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2019.05.15-19.54.13:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2019.05.15-19.54.14:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2019.05.15-19.54.14:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2019.05.15-19.54.14:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2019.05.15-19.54.14:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2019.05.15-19.54.14:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2019.05.15-19.54.14:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2019.05.15-19.54.14:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2019.05.15-19.54.14:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2019.05.15-19.54.14:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2019.05.15-19.54.15:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2019.05.15-19.54.15:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2019.05.15-19.54.15:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2019.05.15-19.54.15:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2019.05.15-19.54.15:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2019.05.15-19.54.15:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2019.05.15-19.54.15:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2019.05.15-19.54.15:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2019.05.15-19.54.16:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2019.05.15-19.54.16:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2019.05.15-19.54.16:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2019.05.15-19.54.16:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2019.05.15-19.54.16:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2019.05.15-19.54.16:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2019.05.15-19.54.16:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2019.05.15-19.54.16:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2019.05.15-19.54.16:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2019.05.15-19.54.16:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2019.05.15-19.54.17:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2019.05.15-19.54.17:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2019.05.15-19.54.17:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2019.05.15-19.54.17:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2019.05.15-19.54.17:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2019.05.15-19.54.17:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2019.05.15-19.54.17:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2019.05.15-19.54.18:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2019.05.15-19.54.18:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2019.05.15-19.54.18:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2019.05.15-19.54.18:501][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2019.05.15-19.54.18:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2019.05.15-19.54.18:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2019.05.15-19.54.18:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2019.05.15-19.54.19:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2019.05.15-19.54.19:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2019.05.15-19.54.19:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2019.05.15-19.54.19:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2019.05.15-19.54.19:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2019.05.15-19.54.19:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2019.05.15-19.54.19:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2019.05.15-19.54.19:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2019.05.15-19.54.19:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Glass.uasset"
+[2019.05.15-19.54.19:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2019.05.15-19.54.19:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2019.05.15-19.54.19:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2019.05.15-19.54.19:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2019.05.15-19.54.19:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2019.05.15-19.54.19:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2019.05.15-19.54.19:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2019.05.15-19.54.19:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2019.05.15-19.54.19:653][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2019.05.15-19.54.19:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2019.05.15-19.54.19:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2019.05.15-19.54.19:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2019.05.15-19.54.19:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2019.05.15-19.54.19:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2019.05.15-19.54.19:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2019.05.15-19.54.19:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2019.05.15-19.54.19:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2019.05.15-19.54.19:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2019.05.15-19.54.19:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2019.05.15-19.54.19:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2019.05.15-19.54.19:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2019.05.15-19.54.19:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2019.05.15-19.54.19:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2019.05.15-19.54.19:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2019.05.15-19.54.20:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2019.05.15-19.54.20:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2019.05.15-19.54.20:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2019.05.15-19.54.20:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2019.05.15-19.54.20:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2019.05.15-19.54.20:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2019.05.15-19.54.20:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2019.05.15-19.54.20:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2019.05.15-19.54.20:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2019.05.15-19.54.20:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2019.05.15-19.54.20:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2019.05.15-19.54.20:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2019.05.15-19.54.20:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2019.05.15-19.54.20:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2019.05.15-19.54.20:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2019.05.15-19.54.20:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2019.05.15-19.54.20:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Explosion02.uasset"
+[2019.05.15-19.54.20:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2019.05.15-19.54.20:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Collapse02.uasset"
+[2019.05.15-19.54.20:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2019.05.15-19.54.20:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Light02.uasset"
+[2019.05.15-19.54.20:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2019.05.15-19.54.20:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Steam01.uasset"
+[2019.05.15-19.54.20:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Smoke01.uasset"
+[2019.05.15-19.54.20:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2019.05.15-19.54.20:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Fire01.uasset"
+[2019.05.15-19.54.20:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2019.05.15-19.54.20:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2019.05.15-19.54.20:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2019.05.15-19.54.20:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2019.05.15-19.54.20:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2019.05.15-19.54.20:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2019.05.15-19.54.20:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Collapse01.uasset"
+[2019.05.15-19.54.20:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2019.05.15-19.54.20:776][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2019.05.15-19.54.20:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Light01.uasset"
+[2019.05.15-19.54.20:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2019.05.15-19.54.20:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Explosion01.uasset"
+[2019.05.15-19.54.20:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2019.05.15-19.54.20:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Maps/StarterMap.umap"
+[2019.05.15-19.54.20:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2019.05.15-19.54.20:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2019.05.15-19.54.20:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Maps/Minimal_Default.umap"
+[2019.05.15-19.54.21:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2019.05.15-19.54.21:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2019.05.15-19.54.21:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2019.05.15-19.54.21:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2019.05.15-19.54.21:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Door.uasset"
+[2019.05.15-19.54.21:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2019.05.15-19.54.21:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Statue.uasset"
+[2019.05.15-19.54.21:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2019.05.15-19.54.21:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Bush.uasset"
+[2019.05.15-19.54.21:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2019.05.15-19.54.21:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Stairs.uasset"
+[2019.05.15-19.54.21:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2019.05.15-19.54.21:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_TableRound.uasset"
+[2019.05.15-19.54.21:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Shelf.uasset"
+[2019.05.15-19.54.21:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Chair.uasset"
+[2019.05.15-19.54.21:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Couch.uasset"
+[2019.05.15-19.54.21:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Rock.uasset"
+[2019.05.15-19.54.21:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2019.05.15-19.54.21:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2019.05.15-19.54.21:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/MaterialSphere.uasset"
+[2019.05.15-19.54.21:609][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2019.05.15-19.54.21:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2019.05.15-19.54.21:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2019.05.15-19.54.21:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2019.05.15-19.54.21:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2019.05.15-19.54.21:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2019.05.15-19.54.21:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2019.05.15-19.54.21:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2019.05.15-19.54.21:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2019.05.15-19.54.21:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2019.05.15-19.54.21:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2019.05.15-19.54.21:726][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2019.05.15-19.54.21:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2019.05.15-19.54.21:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/P_Explosion.uasset"
+[2019.05.15-19.54.21:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/P_Sparks.uasset"
+[2019.05.15-19.54.21:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/P_Fire.uasset"
+[2019.05.15-19.54.21:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2019.05.15-19.54.21:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/P_Smoke.uasset"
+[2019.05.15-19.54.21:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2019.05.15-19.54.21:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2019.05.15-19.54.21:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2019.05.15-19.54.21:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2019.05.15-19.54.21:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2019.05.15-19.54.21:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2019.05.15-19.54.21:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2019.05.15-19.54.21:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2019.05.15-19.54.21:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2019.05.15-19.54.22:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2019.05.15-19.54.22:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2019.05.15-19.54.22:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2019.05.15-19.54.22:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2019.05.15-19.54.22:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2019.05.15-19.54.22:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2019.05.15-19.54.22:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2019.05.15-19.54.22:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2019.05.15-19.54.22:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2019.05.15-19.54.22:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2019.05.15-19.54.22:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2019.05.15-19.54.22:182][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2019.05.15-19.54.22:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2019.05.15-19.54.22:184][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2019.05.15-19.54.22:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2019.05.15-19.54.22:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2019.05.15-19.54.22:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2019.05.15-19.54.22:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2019.05.15-19.54.22:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2019.05.15-19.54.22:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2019.05.15-19.54.22:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2019.05.15-19.54.23:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2019.05.15-19.54.30:937][  0]LogTexture: Display: Building textures: T_Smoke_Tiled_D (AutoDXT, 256X256)
+[2019.05.15-19.54.30:937][  0]LogTexture: Display: Building textures: T_Smoke_SubUV (AutoDXT, 2048X2048)
+[2019.05.15-19.54.30:937][  0]LogTexture: Display: Building textures: T_Explosion_SubUV (AutoDXT, 2048X2048)
+[2019.05.15-19.54.30:937][  0]LogTexture: Display: Building textures: T_Burst_M (AutoDXT, 512X512)
+[2019.05.15-19.54.30:937][  0]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.05.15-19.54.30:937][  0]LogMaterial: Display: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2019.05.15-19.54.31:144][  0]LogMaterial: Display: Missing cached shader map for material M_radial_ramp, compiling. 
+[2019.05.15-19.54.31:178][  0]LogShaderCompilers: Display: Shaders left to compile 84
+[2019.05.15-19.54.31:178][  0]LogShaderCompilers: Display: Shaders left to compile 74
+[2019.05.15-19.54.31:178][  0]LogShaderCompilers: Display: Shaders left to compile 64
+[2019.05.15-19.54.31:178][  0]LogMaterial: Display: Missing cached shader map for material m_flare_01, compiling. 
+[2019.05.15-19.54.31:211][  0]LogMaterial: Display: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2019.05.15-19.54.31:248][  0]LogMaterial: Display: Missing cached shader map for material M_Burst, compiling. 
+[2019.05.15-19.54.31:296][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Explosion02...
+[2019.05.15-19.54.31:483][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 286376 while cooking SoundWave /Game/StarterContent/Audio/Explosion02.Explosion02.
+[2019.05.15-19.54.31:493][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Explosion01...
+[2019.05.15-19.54.31:542][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 279632 while cooking SoundWave /Game/StarterContent/Audio/Explosion01.Explosion01.
+[2019.05.15-19.54.31:722][  0]LogSavePackage: Moving '../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Saved/Blueprint_Effect_Explosion07906B9808D6D9347955BF522D9C89E2.tmp' to '../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset'
+[2019.05.15-19.54.31:736][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2019.05.15-19.54.31:738][  0]Cmd: MAP LOAD FILE="../../../../../../../home/tyler/ReposLink/unrealCourse/Escape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.15-19.54.31:739][  0]LightingResults: New page: Lighting Build
+[2019.05.15-19.54.32:040][  0]MapCheck: New page: Map Check
+[2019.05.15-19.54.32:040][  0]LightingResults: New page: Lighting Build
+[2019.05.15-19.54.32:080][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2019.05.15-19.54.33:096][  0]LogTexture: Display: Building textures: T_TableRound_M (DXT1, 2048X2048)
+[2019.05.15-19.54.33:096][  0]LogTexture: Display: Building textures: T_TableRound_N (BC5, 2048X2048)
+[2019.05.15-19.54.33:096][  0]LogTexture: Display: Building textures: T_MacroVariation (AutoDXT, 2048X2048)
+[2019.05.15-19.54.50:994][  0]LogTexture: Display: Building textures: T_Statue_N (BC5, 1024X1024)
+[2019.05.15-19.54.50:995][  0]LogTexture: Display: Building textures: T_Statue_M (AutoDXT, 2048X2048)
+[2019.05.15-19.54.50:995][  0]LogTexture: Display: Building textures: T_Chair_N (BC5, 2048X2048)
+[2019.05.15-19.54.50:995][  0]LogTexture: Display: Building textures: T_Chair_M (AutoDXT, 2048X2048)
+[2019.05.15-19.54.50:995][  0]LogTexture: Display: Building textures: T_Metal_Copper_D (AutoDXT, 2048X2048)
+[2019.05.15-19.54.50:995][  0]LogTexture: Display: Building textures: T_Metal_Gold_N (BC5, 2048X2048)
+[2019.05.15-19.54.50:995][  0]LogTexture: Display: Building textures: T_Metal_Aluminum_D (AutoDXT, 2048X2048)
+[2019.05.15-19.54.51:029][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Brushed_Nickel, compiling. 
+[2019.05.15-19.54.51:150][  0]LogMaterial: Display: Missing cached shader map for material M_TableRound, compiling. 
+[2019.05.15-19.54.51:514][  0]LogStaticMesh: Building static mesh SM_TableRound...
+[2019.05.15-19.54.51:962][  0]LogStaticMesh: Built static mesh [0.45s] /Game/StarterContent/Props/SM_TableRound.SM_TableRound
+[2019.05.15-19.54.52:061][  0]LogMaterial: Display: Missing cached shader map for material M_Statue, compiling. 
+[2019.05.15-19.54.52:369][  0]LogStaticMesh: Building static mesh SM_Statue...
+[2019.05.15-19.54.52:478][  0]LogStaticMesh: Built static mesh [0.11s] /Game/StarterContent/Props/SM_Statue.SM_Statue
+[2019.05.15-19.54.52:578][  0]LogStaticMesh: Building static mesh SM_Chair...
+[2019.05.15-19.54.52:633][  0]LogStaticMesh: Built static mesh [0.05s] /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2019.05.15-19.54.52:656][  0]LogMaterial: Display: Missing cached shader map for material M_Basic_Floor, compiling. 
+[2019.05.15-19.54.52:689][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2019.05.15-19.54.52:690][  0]LogStaticMesh: Built static mesh [0.00s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2019.05.15-19.54.52:717][  0]LogMaterial: Display: Missing cached shader map for material M_StatueGlass, compiling. 
+[2019.05.15-19.54.52:776][  0]LogMaterial: Display: Missing cached shader map for material M_Chair, compiling. 
+[2019.05.15-19.54.53:411][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Copper, compiling. 
+[2019.05.15-19.54.57:693][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2019.05.15-19.54.57:693][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.05.15-19.54.57:693][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2019.05.15-19.54.57:693][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.05.15-19.54.57:693][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2019.05.15-19.54.57:693][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2019.05.15-19.54.57:693][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X128)
+[2019.05.15-19.54.57:693][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
+[2019.05.15-19.54.57:708][  0]LogMaterial: Display: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2019.05.15-19.54.57:738][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Starter_Wind06...
+[2019.05.15-19.54.58:086][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2193200 while cooking SoundWave /Game/StarterContent/Audio/Starter_Wind06.Starter_Wind06.
+[2019.05.15-19.54.58:106][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Starter_Birds01...
+[2019.05.15-19.54.58:481][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2686992 while cooking SoundWave /Game/StarterContent/Audio/Starter_Birds01.Starter_Birds01.
+[2019.05.15-19.54.58:494][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Starter_Wind05...
+[2019.05.15-19.54.58:832][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 2310208 while cooking SoundWave /Game/StarterContent/Audio/Starter_Wind05.Starter_Wind05.
+[2019.05.15-19.54.58:845][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2019.05.15-19.54.58:907][  0]LogTexture: Display: Building textures: S_AudioComponent_AutoActivate (BGRA8, 256X256)
+[2019.05.15-19.54.58:907][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.15-19.54.58:950][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2019.05.15-19.54.58:955][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.15-19.54.58:955][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.134ms to complete.
+[2019.05.15-19.54.58:955][  0]LogFileHelpers: Loading map 'Minimal_Default' took 27.217
+[2019.05.15-19.54.58:967][  0]LogLinux: Scale at X=200.000000, Y=145.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.54.58:967][  0]LogLinux: Scale at X=845.000000, Y=510.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.54.58:994][  0]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.54.59:287][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.15-19.54.59:343][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.15-19.54.59:357][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.15-19.54.59:374][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.15-19.54.59:438][  0]LogCollectionManager: Loaded 0 collections in 0.003485 seconds
+[2019.05.15-19.54.59:526][  0]LogFileCache: Scanning file cache for directory '/home/tyler/ReposLink/unrealCourse/Escape/Saved/Collections/' took 0.00s
+[2019.05.15-19.54.59:526][  0]LogFileCache: Scanning file cache for directory '/home/tyler/ReposLink/unrealCourse/Escape/Content/Developers/tyler/Collections/' took 0.00s
+[2019.05.15-19.54.59:526][  0]LogFileCache: Scanning file cache for directory '/home/tyler/ReposLink/unrealCourse/Escape/Content/Collections/' took 0.00s
+[2019.05.15-19.54.59:526][  0]LogContentBrowser: Native class hierarchy populated in 0.0183 seconds. Added 2689 classes and 619 folders.
+[2019.05.15-19.54.59:550][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.05.15-19.55.00:456][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.05.15-19.55.00:580][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:616][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:622][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:626][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:654][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:655][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:660][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:664][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:665][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:666][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:667][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:674][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:676][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:678][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:693][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:695][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:703][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:716][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:718][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:719][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:721][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:724][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.00:726][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.15-19.55.01:846][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.05.15-19.55.02:384][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.05.15-19.55.02:575][  0]LogVulkanRHI: Display: Requested PixelFormat 18 not supported by this swapchain! Falling back to supported swapchain format...
+[2019.05.15-19.55.02:576][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2019.05.15-19.55.02:576][  0]LogVulkanRHI: Display: Queue Family 0: Supports Present
+[2019.05.15-19.55.02:576][  0]LogVulkanRHI: Display: Found 3 Surface present modes:
+[2019.05.15-19.55.02:576][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_IMMEDIATE_KHR (0)
+[2019.05.15-19.55.02:576][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_MAILBOX_KHR (1)
+[2019.05.15-19.55.02:576][  0]LogVulkanRHI: Display: - VK_PRESENT_MODE_FIFO_KHR (2)
+[2019.05.15-19.55.02:576][  0]LogVulkanRHI: Display: Selected VkPresentModeKHR mode 1
+[2019.05.15-19.55.02:634][  0]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.55.02:634][  0]LogLinux: Scale at X=335.000000, Y=220.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.55.02:634][  0]LogLinux: Scale at X=840.000000, Y=525.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.55.02:701][  0]LogTexture: Display: Building textures: Blueprint_64x (BGRA8, 64X64)
+[2019.05.15-19.55.02:701][  0]LogTexture: Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8, 40X40)
+[2019.05.15-19.55.02:701][  0]LogTexture: Display: Building textures: Paper2DSprite_TutorialIcon (BGRA8, 64X64)
+[2019.05.15-19.55.02:701][  0]LogTexture: Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8, 40X40)
+[2019.05.15-19.55.02:701][  0]LogTexture: Display: Building textures: Landscape (BGRA8, 40X40)
+[2019.05.15-19.55.02:701][  0]LogTexture: Display: Building textures: Foliage (BGRA8, 40X40)
+[2019.05.15-19.55.02:701][  0]LogLinux: Scale at X=335.000000, Y=220.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.55.02:701][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.05.15-19.55.03:161][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.05.15-19.55.03:161][  0]LogLoad: (Engine Initialization) Total time: 148.56 seconds
+[2019.05.15-19.55.03:162][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.15-19.55.03:211][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.15-19.55.03:217][  0]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.15-19.55.03:257][  0]LogSlate: Took 0.020702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.15-19.55.03:505][  0]LogTexture: Display: Building textures: LevelGrid1DStripes (BGRA8, 4096X1)
+[2019.05.15-19.55.03:505][  0]LogMaterial: Display: Missing cached shader map for material LevelGridMaterial2, compiling. 
+[2019.05.15-19.55.03:641][  0]LogSlate: Took 0.026459 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.15-19.55.03:762][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
+[2019.05.15-19.55.04:420][  0]LogShaderCompilers: Display: Shaders left to compile 423
+[2019.05.15-19.55.05:704][  0]LogShaderCompilers: Display: Shaders left to compile 413
+[2019.05.15-19.55.05:860][  0]LogInit: Adding external input plugin.
+[2019.05.15-19.55.05:909][  0]LogAssetRegistry: Asset discovery search completed in 133.6819 seconds
+[2019.05.15-19.55.05:914][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.05.15-19.55.05:914][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000118 seconds (updated 0 objects)
+[2019.05.15-19.55.05:920][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.15-19.55.05:971][  1]LogTexture: Display: Building textures: icon_tab_Levels_40x (BGRA8, 40X40)
+[2019.05.15-19.55.06:872][ 46]LogLinux: Scale at X=0.000000, Y=0.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.55.06:873][ 46]LogLinux: Scale at X=840.000000, Y=525.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.55.06:873][ 46]LogLinux: Scale at X=840.000000, Y=525.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.55.07:261][ 62]LogShaderCompilers: Display: Shaders left to compile 403
+[2019.05.15-19.55.15:960][584]LogShaderCompilers: Display: Shaders left to compile 393
+[2019.05.15-19.55.16:540][619]LogShaderCompilers: Display: Shaders left to compile 383
+[2019.05.15-19.55.19:070][771]LogShaderCompilers: Display: Shaders left to compile 373
+[2019.05.15-19.55.30:062][420]LogShaderCompilers: Display: Shaders left to compile 363
+[2019.05.15-19.55.30:145][425]LogShaderCompilers: Display: Shaders left to compile 353
+[2019.05.15-19.55.33:843][637]LogShaderCompilers: Display: Shaders left to compile 343
+[2019.05.15-19.55.40:353][ 20]LogShaderCompilers: Display: Shaders left to compile 333
+[2019.05.15-19.55.42:041][122]LogShaderCompilers: Display: Shaders left to compile 323
+[2019.05.15-19.55.42:226][133]LogShaderCompilers: Display: Shaders left to compile 313
+[2019.05.15-19.55.52:795][764]LogShaderCompilers: Display: Shaders left to compile 303
+[2019.05.15-19.55.52:834][767]LogShaderCompilers: Display: Shaders left to compile 293
+[2019.05.15-19.55.56:412][981]LogShaderCompilers: Display: Shaders left to compile 283
+[2019.05.15-19.56.02:660][356]LogShaderCompilers: Display: Shaders left to compile 273
+[2019.05.15-19.56.03:425][402]LogShaderCompilers: Display: Shaders left to compile 263
+[2019.05.15-19.56.04:997][496]LogShaderCompilers: Display: Shaders left to compile 253
+[2019.05.15-19.56.11:288][872]LogShaderCompilers: Display: Shaders left to compile 243
+[2019.05.15-19.56.12:011][915]LogShaderCompilers: Display: Shaders left to compile 233
+[2019.05.15-19.56.12:996][974]LogShaderCompilers: Display: Shaders left to compile 223
+[2019.05.15-19.56.21:647][491]LogShaderCompilers: Display: Shaders left to compile 213
+[2019.05.15-19.56.22:411][537]LogShaderCompilers: Display: Shaders left to compile 203
+[2019.05.15-19.56.23:788][620]LogShaderCompilers: Display: Shaders left to compile 193
+[2019.05.15-19.56.30:856][ 40]LogShaderCompilers: Display: Shaders left to compile 183
+[2019.05.15-19.56.31:917][104]LogShaderCompilers: Display: Shaders left to compile 173
+[2019.05.15-19.56.32:340][129]LogShaderCompilers: Display: Shaders left to compile 163
+[2019.05.15-19.56.42:542][730]LogShaderCompilers: Display: Shaders left to compile 153
+[2019.05.15-19.56.42:906][752]LogShaderCompilers: Display: Shaders left to compile 143
+[2019.05.15-19.56.43:030][759]LogShaderCompilers: Display: Shaders left to compile 133
+[2019.05.15-19.56.49:080][122]LogShaderCompilers: Display: Shaders left to compile 123
+[2019.05.15-19.56.53:142][366]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.05.15-19.57.06:809][181]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.05.15-19.57.08:691][294]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.05.15-19.57.17:288][810]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.05.15-19.57.18:050][856]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.05.15-19.57.18:336][873]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.05.15-19.57.24:349][207]LogLinux: Scale at X=840.000000, Y=525.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.57.24:389][207]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.05.15-19.57.26:363][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.15-19.57.26:460][323]LogLinux: Scale at X=335.000000, Y=220.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.57.26:460][323]LogLinux: Scale at X=840.000000, Y=525.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.57.26:795][323]LogTexture: Display: Building textures: BlueprintInterface_64x (BGRA8, 64X64)
+[2019.05.15-19.57.26:795][323]LogTexture: Display: Building textures: BlueprintMacroLibrary_64x (BGRA8, 64X64)
+[2019.05.15-19.57.26:795][323]LogTexture: Display: Building textures: CameraActor_64x (BGRA8, 64X64)
+[2019.05.15-19.57.26:795][323]LogTexture: Display: Building textures: IOS (BGRA8, 64X64)
+[2019.05.15-19.57.26:795][323]LogTexture: Display: Building textures: android_Icon (BGRA8, 64X64)
+[2019.05.15-19.57.26:795][323]LogTexture: Display: Building textures: Paper2DFlipbook_TutorialIcon (BGRA8, 64X64)
+[2019.05.15-19.57.26:795][323]LogLinux: Scale at X=335.000000, Y=220.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.05.15-19.57.26:795][323]LogSlate: Window 'Tutorials' being destroyed
+[2019.05.15-19.57.27:578][372]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.05.15-19.57.28:170][401]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.05.15-19.57.34:726][792]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.05.15-19.57.35:922][864]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.05.15-19.57.38:725][ 32]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.05.15-19.58.26:736][852]LogLinux: Scale at X=891.500000, Y=360.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
