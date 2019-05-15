@@ -1,6 +1,11 @@
+## Unreal Generated Files ##
+
 Escape/Build
 Escape/Binaries
 Escape/DerivedDataCache
-Escape/Intermediate
+*/Intermediate
 Escape/Saved
 Escape/Content/StarterContent/
+
+## Visual Studio Code Generated Files ##
+*.VC.db
